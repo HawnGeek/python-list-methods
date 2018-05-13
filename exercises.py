@@ -88,17 +88,29 @@ print(ssh_list)
 #max() returns the largest element in the list
 #10 Find the largest integer in the network list below:
 
+
 network_list = [39104, 38694, 38702, 38787, 39860]
+print(network_list)
+#This should give us the max value in the list
+print('Maximum is:', max(network_list))
+
 
 #min() returns the smallest element in the list
 #11 Find the smallest integet in the network list below:
 
 network_list = [39104, 38694, 38702, 38787, 39860]
+print(network_list)
+#This should give us the min value in the list
+print('Minimum is ', min(network_list))
+
 
 #sum() calculates the sum of the all the elements in the list
 #12 Find the sum of the following occurence list below:
 
 occurences = [3, 2.5, 9, 7, 21, 6, 8]
-
+print(occurences)
+#This should give us the sum of all the values in the list
+print('Sum of this list is ', sum(network_list))
+ 
 
 
