@@ -51,9 +51,11 @@ print(sec_co)
 
 cyber_attacks = ['Equifax Data Breach', 'Uber Data Breach', 'Yahoo!','WannaCry', 'Deep Root Analytics']
 
+print(cyber_attacks[3])
 print(cyber_attacks)
 index = cyber_attacks.index('WannaCry')
 print(index)
+
 
 #count(element) counts how many times an element is in a list
 #7. In the dns list below, find the number of ocurrence for 98.105 and print your results.
@@ -112,5 +114,3 @@ print(occurences)
 #This should give us the sum of all the values in the list
 print('Sum of this list is ', sum(network_list))
  
-
-
